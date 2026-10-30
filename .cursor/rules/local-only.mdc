@@ -1,0 +1,13 @@
+---
+description: Keep this project local and never deploy or upload it without an explicit new request.
+alwaysApply: true
+---
+
+# Local development only
+
+- This project is local code only. Use localhost for previews.
+- Do not create hosted Sites, deploy, publish, upload the project, or push its source to a remote service.
+- Requests to build, fix, preview, or improve this app do not authorize hosting or deployment.
+- Only a new, explicit user request to publish or deploy can change this restriction.
+- Keep hosting configuration and deployment workflows out of this project.
+- Do not create, modify, or run automated tests unless the user explicitly requests tests. Use code inspection, type checks, builds, and focused manual verification instead.
